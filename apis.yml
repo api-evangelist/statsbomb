@@ -1,0 +1,101 @@
+aid: statsbomb
+url: https://raw.githubusercontent.com/api-evangelist/statsbomb/refs/heads/main/apis.yml
+name: StatsBomb (Hudl)
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Football
+  - Soccer
+  - Analytics
+  - Event Data
+  - Tracking
+  - xG
+  - On-Ball Value
+  - Hudl
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+description: >-
+  StatsBomb, now part of Hudl, supplies advanced football (soccer) analytics
+  and data to professional clubs, federations, broadcasters, and media. The
+  StatsBomb Data product captures 3,400+ events per match across 190+
+  competitions with proprietary models (Expected Goals, On-Ball Value,
+  HOPS) and bundled player-location and 360 data. Delivery is sales-led
+  through licensed client APIs and standard file formats (JSON, XML, CSV),
+  with the StatsBomb Open Data set published publicly on GitHub for the
+  research community.
+apis:
+  - aid: statsbomb:data-api
+    name: StatsBomb Data API
+    description: >-
+      Licensed client REST API delivering StatsBomb event data, 360 freeze
+      frames, player-location data, and derived metrics (xG, OBV, HOPS) for
+      contracted competitions. Access is granted under commercial agreement;
+      base URL is provisioned per customer.
+    humanURL: https://www.hudl.com/en_gb/products/statsbomb
+    baseURL: https://data.statsbombservices.com
+    tags:
+      - Event Data
+      - 360 Data
+      - xG
+      - OBV
+      - Football
+    properties:
+      - type: ProductPage
+        url: https://www.hudl.com/en_gb/products/statsbomb
+      - type: Contact
+        url: https://www.hudl.com/en_gb/products/statsbomb
+        title: Sales-led access (contact Hudl StatsBomb)
+  - aid: statsbomb:iq-platform
+    name: StatsBomb IQ
+    description: >-
+      Hosted analytics platform layered on top of StatsBomb Data for
+      recruitment, tactical analysis, and performance evaluation. Includes
+      customizable visualizations and native integration with Hudl
+      Sportscode, Studio, and Insight.
+    humanURL: https://www.hudl.com/en_gb/products/statsbomb
+    baseURL: https://www.hudl.com/en_gb/products/statsbomb
+    tags:
+      - Analytics Platform
+      - Recruitment
+      - Tactical Analysis
+      - Visualization
+    properties:
+      - type: ProductPage
+        url: https://www.hudl.com/en_gb/products/statsbomb
+  - aid: statsbomb:open-data
+    name: StatsBomb Open Data
+    description: >-
+      Free, publicly released sample of StatsBomb event data (and selected
+      360 data) distributed via GitHub for academic and community research.
+      JSON files keyed by competition, season, and match.
+    humanURL: https://github.com/statsbomb/open-data
+    baseURL: https://raw.githubusercontent.com/statsbomb/open-data
+    tags:
+      - Open Data
+      - Research
+      - Event Data
+      - GitHub
+    properties:
+      - type: GitHub
+        url: https://github.com/statsbomb/open-data
+      - type: License
+        url: https://github.com/statsbomb/open-data/blob/master/LICENSE.pdf
+        title: StatsBomb Open Data User Agreement
+common:
+  - type: Website
+    url: https://www.hudl.com/en_gb/products/statsbomb
+  - type: GitHub
+    url: https://github.com/statsbomb
+  - type: OpenData
+    url: https://github.com/statsbomb/open-data
+  - type: Parent
+    url: https://www.hudl.com/
+    title: Hudl (parent company)
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/statsbomb
+  - type: Contact
+    url: https://www.hudl.com/en_gb/products/statsbomb
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
