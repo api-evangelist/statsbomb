@@ -83,6 +83,10 @@ apis:
         url: https://github.com/statsbomb/open-data/blob/master/LICENSE.pdf
         title: StatsBomb Open Data User Agreement
 common:
+  - type: TrustCenter
+    url: security/statsbomb-trust-center.yml
+  - type: DomainSecurity
+    url: security/statsbomb-domain-security.yml
   - type: Website
     url: https://www.hudl.com/en_gb/products/statsbomb
   - type: GitHub
